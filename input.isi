@@ -1,0 +1,37 @@
+programa
+	numero a, b, c;
+	booleano z, y;
+	texto t1, t2;
+	
+	
+	z = Verdadeiro;
+	  
+	t1 = "teste";
+	
+	leia (t2);
+	escreva (t2);
+	
+	a = 0;
+	b = a + 3.3 * 9;
+	
+	escreva (b);
+	
+	se (a < 5) {
+		escreva (a);
+	} senao {
+		escreva ("AA");
+	}
+	
+	enquanto (a < 5) {
+		a = a + 1;
+		escreva (a);
+	}
+	
+	a = 0;
+	
+	faca {
+		a = a + 1;
+		escreva (a);
+	} enquanto (a < 5);
+	
+fimprog;
