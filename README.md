@@ -27,6 +27,7 @@ Os seguintes itens do checklist foram entregados:
 + Verificar se uma variável está sendo usada sem ter valor inicial 
 
 ## Gramatica Utilizada
+```
 prog        -> **'programa'** declara bloco **'fimprog'**  <br />
 declara     -> (declaravar)+ <br /> 
 declaravar  -> tipo ID (**,** ID)* **;** <br />
@@ -49,3 +50,4 @@ ID      -> [a-z] ([a-z] | [A-Z] | [0-9])* <br />
 NUMBER  -> [0-9]+ ('.' [0-9]+)? <br />
 TEXT    -> ([a-z] | [A-Z] | [0-9] | ' ')* <br />
 BOOLEAN -> **'Verdadeiro'** | **'Falso'** <br />
+```
