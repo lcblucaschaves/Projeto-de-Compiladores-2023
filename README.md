@@ -4,10 +4,12 @@
 + João Pedro Genga - RA:11201810740 - Turma A1 <br />
 + Lucas Chaves Batista - RA:11201921079 - Turma A2 <br />
 + Matheus dos Santos Cavaião - RA:11201921622  - Turma A2 <br />
++ Tiago Luiz Silva de Araujo Pereira RA:11013316 - Turma A1
 
 ## Projeto de Compiladores
 VERSÕES: O projeto foi realizado utilizando as versões JAVA SE 17 e ANTLR 4.7.1.
-LINK DO VIDEO: 
+
+LINK DO VIDEO: https://youtu.be/VYlzjVS4eZ4
 
 O projeto trata-se da criação de um compilador (ou Transpilador nesse caso) que reconhece uma linguagem criada (IsiLanguage) e a traduz para a linguagem JAVA. Essa tradução é feita utilizando o analisador (parser) gerado pelo ANTLR com base na gramatica criada. A geração de codigo (Tradução) é feita através dos códigos presentes em AST e Datastructs.
 
