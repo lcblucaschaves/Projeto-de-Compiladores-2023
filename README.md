@@ -1,18 +1,18 @@
 # Projeto-de-Compiladores-2023
-Projeto de Compiladores
+##Projeto de Compiladores
 
-# Gramatica 
-prog        -> 'programa' declara bloco 'fimprog'
+## Gramatica 
+prog        -> **'programa'** declara bloco **'fimprog'** 
 declara     -> (declaravar)+
-declaravar  -> tipo ID (, ID)* ;
-tipo        -> 'numero' | 'texto' | 'booleano'
+declaravar  -> tipo ID (**,** ID)* **;**
+tipo        -> **'numero'** | **'texto'** | **'booleano'**
 bloco       -> (cmd)+
 cmd         -> cmdleitura | cmdescrita | cmdattr | cmdselecao | cmdenquanto | cmdfazenquanto
-cmdleitura  -> 'leia'(ID);
-cmdescrita  -> 'escreva'(ID | NUMBER | TEXT | BOOLEAN);
-cmdattr     -> ID '=' expr;
-cmdselecao  -> 'se'(ID OPREL (ID | NUMBER)) { (cmd)+ } 
-               ('senao'{ (cmd)+ })?
+cmdleitura  -> **'leia'(** ID **);**
+cmdescrita  -> **'escreva'(** ID | NUMBER | TEXT | BOOLEAN **);**
+cmdattr     -> ID **'='** expr **;**
+cmdselecao  -> '**se'(** ID OPREL (ID | NUMBER) **) {** (cmd)+ **}**
+               ( **'senao'{** (cmd)+ **}** )?
 cmdenquanto -> 'enquanto'(ID OPREL (ID | NUMBER)) { (cmd)+ }
 cmdfazenquanto -> 'faca'{ (cmd)+ }
                   'enquanto'(expr OPREL expr);
