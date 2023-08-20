@@ -15,7 +15,7 @@ Execução: O programa MainClass.java (pacote main) recebe o arquivo input.isi c
 OBS: Certifique-se de que o pacote parser está atualizado. É possivel gerar ele novamente usando o antlr.
 
 Os seguintes itens do checklist foram entregados:
-- [ ] Possui 2 tipos de variáveis
++ Possui 2 tipos de variáveis
 - [x] Possui a estrutura If.. else
 - [x] Possui estrutura de controle while/do while
 - [x] Operações Aritméticas executadas corretamente
