@@ -1,9 +1,9 @@
 # Projeto-de-Compiladores-2023
 ## Integrantes
-Bruno Gabriel Nascimento Pina - RA:11201921643 - Turma A1 <br />
-João Pedro Genga - RA:11201810740 - Turma A1 <br />
-Lucas Chaves Batista - RA:11201921079 - Turma A2 <br />
-Matheus dos Santos Cavaião - RA:11201921622  - Turma A2 <br />
++ Bruno Gabriel Nascimento Pina - RA:11201921643 - Turma A1 <br />
++ João Pedro Genga - RA:11201810740 - Turma A1 <br />
++ Lucas Chaves Batista - RA:11201921079 - Turma A2 <br />
++ Matheus dos Santos Cavaião - RA:11201921622  - Turma A2 <br />
 
 ## Projeto de Compiladores
 VERSÕES: O projeto foi realizado utilizando as versões JAVA SE 17 e ANTLR 4.7.1.
@@ -16,15 +16,15 @@ OBS: Certifique-se de que o pacote parser está atualizado. É possivel gerar el
 
 Os seguintes itens do checklist foram entregados:
 + Possui 2 tipos de variáveis
-- [x] Possui a estrutura If.. else
-- [x] Possui estrutura de controle while/do while
-- [x] Operações Aritméticas executadas corretamente
-- [x] Atribuições realizadas corretamente
-- [x] Possui operações de Entrada e Saída
-- [x] Aceita números decimais
-- [x] Verificar se a variável já foi previamente declarada
-- [x] Verificar se a variável foi declarada e não foi usada
-- [x] Verificar se uma variável está sendo usada sem ter valor inicial 
++ Possui a estrutura If.. else
++ Possui estrutura de controle while/do while
++ Operações Aritméticas executadas corretamente
++ Atribuições realizadas corretamente
++ Possui operações de Entrada e Saída
++ Aceita números decimais
++ Verificar se a variável já foi previamente declarada
++ Verificar se a variável foi declarada e não foi usada
++ Verificar se uma variável está sendo usada sem ter valor inicial 
 
 ## Gramatica Utilizada
 prog        -> **'programa'** declara bloco **'fimprog'**  <br />
