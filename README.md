@@ -1,9 +1,9 @@
 # Projeto-de-Compiladores-2023
 ## Integrantes
-Bruno Gabriel Nascimento Pina - RA:11201921643 - Turma A1
-João Pedro Genga - RA:11201810740 - Turma A1
-Lucas Chaves Batista - RA:11201921079 - Turma A2
-Matheus dos Santos Cavaião - RA:11201921622  - Turma A2
+Bruno Gabriel Nascimento Pina - RA:11201921643 - Turma A1 <br />
+João Pedro Genga - RA:11201810740 - Turma A1 <br />
+Lucas Chaves Batista - RA:11201921079 - Turma A2 <br />
+Matheus dos Santos Cavaião - RA:11201921622  - Turma A2 <br />
 
 ## Projeto de Compiladores
 VERSÕES: O projeto foi realizado utilizando as versões JAVA SE 17 e ANTLR 4.7.1.
@@ -15,7 +15,7 @@ Execução: O programa MainClass.java (pacote main) recebe o arquivo input.isi c
 OBS: Certifique-se de que o pacote parser está atualizado. É possivel gerar ele novamente usando o antlr.
 
 Os seguintes itens do checklist foram entregados:
-- [x] Possui 2 tipos de variáveis
+- [ ] Possui 2 tipos de variáveis
 - [x] Possui a estrutura If.. else
 - [x] Possui estrutura de controle while/do while
 - [x] Operações Aritméticas executadas corretamente
