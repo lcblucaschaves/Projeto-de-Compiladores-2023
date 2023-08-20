@@ -50,4 +50,4 @@ ID      -> [a-z] ([a-z] | [A-Z] | [0-9])*
 NUMBER  -> [0-9]+ ('.' [0-9]+)?
 TEXT    -> ([a-z] | [A-Z] | [0-9] | ' ')*
 BOOLEAN -> 'Verdadeiro' | 'Falso'
-```.js
+```
